@@ -1,0 +1,19 @@
+{
+  "name": "{{PROJ_NAME}}",
+  "version": "0.0.1",
+  "dependencies": {
+
+    "jquery": null,
+    "underscore": null,
+    "zepto": null,
+    "lodash": null,
+
+    "angular": null,
+    "angular-route": null,
+    "angular-mocks": null,
+    "angular-scenario": null,
+    "react-addons": null,
+    "modernizr": null,
+    "momentjs": null
+  }
+}

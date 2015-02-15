@@ -1,0 +1,5 @@
+* text=auto
+
+setup.sh merge=ours
+package.json merge=ours
+bower.json merge=ours

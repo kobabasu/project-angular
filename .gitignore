@@ -1,0 +1,15 @@
+.DS_Store
+bower.json.tmp
+bower.json-e
+package.json-e
+npm-debug-log
+
+apps/*
+bower_components/*
+backup/*
+coreos/*
+dockerfiles/*
+log/*
+node_modules/*
+
+!.gitkeep

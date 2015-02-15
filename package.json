@@ -1,0 +1,65 @@
+{
+  "name": "{{PROJ_NAME}}",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+
+    "coffee-script": "*",
+
+    "react": "*",
+
+    "webpack": "*",
+    "coffee-loader": "*",
+    "html-loader": "*",
+    "jsx-loader": "*",
+    "cjsx-loader": "*",
+
+    "node-neat": "*",
+    "node-bourbon": "*",
+
+    "gulp": "*",
+    "require-dir": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "gulp-imagemin": "*",
+
+    "gulp-protractor": "*",
+    "gulp-exit": "*",
+    "gulp-webserver": "*",
+    "gulp-load-plugins": "*",
+    "run-sequence": "*",
+
+    "gulp-karma": "*",
+
+    "gulp-coffee": "*",
+    "gulp-cjsx": "*",
+    "gulp-coffeelint": "*",
+    "gulp-yuidoc": "*",
+    "gulp-eslint": "*",
+    "gulp-sass": "*",
+    "gulp-csso": "*",
+    "gulp-styledocco": "*",
+
+    "protractor": "*",
+    "mocha": "*",
+    "chai": "1.7.0",
+    "chai-as-promised": "*",
+    "sinon": "*",
+    "karma": "*",
+    "karma-coverage": "*",
+    "karma-coffee-preprocessor": "*",
+    "karma-cjsx-preprocessor": "*",
+    "karma-webpack": "*",
+    "karma-mocha": "*",
+    "karma-mocha-reporter": "*",
+    "karma-chai": "*",
+    "karma-chai-jquery": "*",
+    "karma-sinon-chai": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-ie-launcher": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-slimerjs-launcher": "*"
+  }
+}

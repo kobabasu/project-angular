@@ -15,8 +15,8 @@
     "jsx-loader": "*",
     "cjsx-loader": "*",
 
-    "node-neat": "*",
     "node-bourbon": "*",
+    "node-neat": "*",
 
     "gulp": "*",
     "require-dir": "*",

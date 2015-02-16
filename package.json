@@ -21,6 +21,7 @@
     "gulp": "*",
     "require-dir": "*",
     "gulp-util": "*",
+    "gulp-plumber": "*",
     "gulp-watch": "*",
     "gulp-imagemin": "*",
 

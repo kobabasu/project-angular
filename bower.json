@@ -14,6 +14,9 @@
     "angular-scenario": null,
     "react-addons": null,
     "modernizr": null,
-    "momentjs": null
+    "momentjs": null,
+
+    "bootstrap-sass": null,
+    "highlightjs": null
   }
 }

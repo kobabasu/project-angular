@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
 
+    "normalize.css": null,
     "jquery": null,
     "underscore": null,
     "zepto": null,
@@ -10,8 +11,10 @@
 
     "angular": null,
     "angular-route": null,
+    "angular-resource": null,
     "angular-mocks": null,
     "angular-scenario": null,
+
     "react-addons": null,
     "modernizr": null,
     "momentjs": null,

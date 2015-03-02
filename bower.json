@@ -1,8 +1,9 @@
 {
-  "name": "{{PROJ_NAME}}",
+  "name": "anagift",
   "version": "0.0.1",
   "dependencies": {
 
+    "normalize.css": null,
     "jquery": null,
     "underscore": null,
     "zepto": null,
@@ -10,10 +11,17 @@
 
     "angular": null,
     "angular-route": null,
+    "angular-resource": null,
+    "angular-ui-router": null,
+    "angular-sanitize": null,
     "angular-mocks": null,
     "angular-scenario": null,
+
     "react-addons": null,
     "modernizr": null,
-    "momentjs": null
+    "momentjs": null,
+
+    "bootstrap-sass": null,
+    "highlightjs": null
   }
 }

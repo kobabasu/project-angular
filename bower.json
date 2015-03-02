@@ -12,6 +12,8 @@
     "angular": null,
     "angular-route": null,
     "angular-resource": null,
+    "angular-ui-router": null,
+    "angular-sanitize": null,
     "angular-mocks": null,
     "angular-scenario": null,
 

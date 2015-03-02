@@ -1,26 +1,31 @@
 {
-  "name": "{{PROJ_NAME}}",
+  "name": "anagift",
   "version": "0.0.1",
   "private": true,
   "dependencies": {},
   "devDependencies": {
 
     "coffee-script": "*",
+    "yuidoc-die-on-warnings": "*",
 
     "react": "*",
 
     "webpack": "*",
     "coffee-loader": "*",
     "html-loader": "*",
+    "css-loader": "*",
     "jsx-loader": "*",
     "cjsx-loader": "*",
 
-    "node-neat": "*",
     "node-bourbon": "*",
+    "node-neat": "*",
 
     "gulp": "*",
     "require-dir": "*",
     "gulp-util": "*",
+    "gulp-run": "*",
+    "gulp-plumber": "*",
+    "gulp-notify": "*",
     "gulp-watch": "*",
     "gulp-imagemin": "*",
 
@@ -35,11 +40,12 @@
     "gulp-coffee": "*",
     "gulp-cjsx": "*",
     "gulp-coffeelint": "*",
-    "gulp-yuidoc": "*",
+    "yuidoc-bootstrap-theme": "*",
     "gulp-eslint": "*",
     "gulp-sass": "*",
     "gulp-csso": "*",
     "gulp-styledocco": "*",
+    "gulp-autoprefixer": "*",
 
     "protractor": "*",
     "mocha": "*",

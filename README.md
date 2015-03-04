@@ -18,18 +18,23 @@
 attributesの不具合
 
 ## install
-github.com anagiftアカウントで、
-レポジトリを'project'で作成
+### ブラウザgithub上での操作
+github.com フォーク先アカウントで、
+フォーク元/project-angularページからforkする。
+フォーク先にリポジトリが追加されるので、
+projectにrename
 
-hub clone kobabasu/project.git project
+### cloneと初期設定
+hub clone フォーク元/project.git project
 
 git config --local user.name 'Keiji Kobayashi'
 git config --local user.email 'keiji@seeknetusa.com'
 git config --local merge.ff false
+
 hub fork
 
 git remote set-url keiji-seeknetusa \
-git@github.com-keiji-seeknetusa:anagift/project.git
+git@github.com-keiji-seeknetusa:フォーク先/project.git
 
 git remote rename origin upstream
 git remote rename keiji-seeknetusa origin
@@ -38,6 +43,7 @@ git checkout -b develop upstream/develop
 
 git flow init -d
 
+### 作業用ブランチの作成とファイルの編集
 git flow feature start pull-request-test
 
 git branch -rで確認
@@ -52,5 +58,31 @@ vim README.md
 git add README.md
 git commit -m '....'
 
-git flow feature 
+git flow feature publish pull-request-test
 
+### pull-requestを出し承認
+hub pull-request -b develop -h feature/pull-request-test
+
+ブラウザで
+pull-requestを承認
+
+cd もとのローカルリポジトリ
+git pull origin develop
+
+### upstreamを反映
+cd ~/projects/フォーク先/project
+git fetch upstream
+
+もしpull-request以外のアップデートがあれば…
+git checkout develop
+git merge upstream/develop
+
+git pull
+git push origin --all
+
+git branch -d feature/pull-request-test
+git push origin :feature/pull-request-test
+
+### 編集用ブランチを削除
+git branch -d feature/pull-request-test
+git push origin :feature/pull-request-test

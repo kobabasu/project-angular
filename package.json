@@ -5,6 +5,7 @@
   "dependencies": {},
   "devDependencies": {
 
+    "node-notifier": "*",
     "coffee-script": "*",
     "yuidoc-die-on-warnings": "*",
 

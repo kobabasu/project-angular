@@ -12,4 +12,6 @@ dockerfiles/*
 log/*
 node_modules/*
 
+!backup/jenkins/config.xml
+
 !.gitkeep

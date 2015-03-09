@@ -30,6 +30,7 @@
     "gulp-watch": "*",
     "gulp.spritesmith": "*",
     "gulp-imagemin": "*",
+    "gulp-changed": "*",
 
     "gulp-protractor": "*",
     "gulp-exit": "*",

@@ -7,6 +7,7 @@
 
     "node-notifier": "*",
     "coffee-script": "*",
+    "coffee-react": "*",
     "yuidoc-die-on-warnings": "*",
 
     "react": "*",
